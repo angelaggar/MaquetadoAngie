@@ -1,0 +1,19 @@
+*{
+    margin: 5px;
+    padding: 2px;
+    background-color: white;
+}
+#main{
+    color: black;
+}
+.titles {
+    color: black;
+    font-weight: bold;
+}
+.numbers {
+    color: black;
+}
+.cont {
+    color: black;
+}
+
