@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+p{
+    font-size: x-large;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+.contenedor-p{
+    background-image: url("../pictures/26093-relajantes.png");
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.logo{
+    width: 50px;
+    margin: 0 3px;
+}
+
+.flexRow{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 4px;
+}
+
+.flexColumnC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuOptions{
+    text-decoration: none;
+    padding: 5px;
+}
+a :link{
+    color: black;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+a :visited{
+    color: rgb(0, 167, 22);
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.art-container{
+    /* height: 80% auto; */
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.article-box{
+    height: 25%;
+    width: 250px;
+    background-color:rgb(118, 135, 172, 0.7);
+    margin: 3px;
+}
+
+.articleName{
+    color: rgb(250, 168, 236);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.newpage{
+    width: 150px;
+    height: 150px;
+}
+
+.newpage :hover{
+    opacity: 50%;
+}
+
+.contenido{
+    text-align: center;
+    color: white;
+}
+
+.fBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 15px;
+    margin-top: 3px;
+}
+
+.footerOption{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footerOptionS{
+    font-size: small;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: space-around;
+    padding: 3px;
+}
+.media-icon{
+    width:30px;
+    height: 30px;
+
+}
+
+
+@media screen and min-width (412px) {
+    .logo:;
+}
