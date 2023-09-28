@@ -1,0 +1,77 @@
+$bgColorLblue: #a6cfff;
+$navheight: 80px;
+
+
+body{
+    background-color: $bgColorLblue;
+    box-sizing: border-box;
+    width: 100% auto;
+    height: 100vh;
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: large;
+}
+
+
+.navbox{
+    height:$navheight;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255, 0.9);
+    position: sticky;
+    top: 0;
+}
+
+.nav_division1,
+.nav_division2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav_options{
+        height: $navheight;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+.nav_options:hover{
+
+}
+
+.logobox{
+    height: $navheight;
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    img{
+        width: 65px;
+    }
+}
+
+.nav_title{
+    height: $navheight;
+    width: 150px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    text-decoration: none;
+    h3{
+        font-family: 'Leckerli One', cursive;
+        font-size: xx-large;
+        color: black;
+    }
+}
+
+.mainpage{
+    height: 80%;
+    width: 100%;
+    margin: 10px auto 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+}
